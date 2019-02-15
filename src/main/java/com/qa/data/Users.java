@@ -6,6 +6,7 @@ public class Users {
 	String job;
 	String id;
 	String createdAt;
+	String updatedAt;
 
 	//pojo- Plain Old Java Object
 	
@@ -36,6 +37,14 @@ public class Users {
 
 	//getters and setters
 	
+	public String getUpdatedAt() {
+		return updatedAt;
+	}
+
+	public void setUpdatedAt(String updatedAt) {
+		this.updatedAt = updatedAt;
+	}
+
 	public String getName() {
 		return name;
 	}
