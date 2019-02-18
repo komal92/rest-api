@@ -83,6 +83,8 @@ public class PutApiTest extends TestBase {
 		System.out.println(obj.getJob().equals(user.getJob()));
 
 		System.out.println(obj.getName().equals(user.getName()));
+		
+		System.out.println("This is the end of put api");
 	}
 
 }
