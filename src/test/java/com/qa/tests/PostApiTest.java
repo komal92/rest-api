@@ -82,6 +82,8 @@ public class PostApiTest extends TestBase{
 		
 		System.out.println(obj.getName().equals(user.getName()));
 		
+		System.out.println("This is the end of post api");
+		
 		
 		
 		

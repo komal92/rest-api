@@ -27,6 +27,7 @@ public class GetApiTest extends TestBase {
 	public void getApiTest() throws ClientProtocolException, IOException {
 		RestClient restClient = new RestClient();
 		restClient.get(actualURL);
+		System.out.println("This is the end of get api");
 	}
 	
 	

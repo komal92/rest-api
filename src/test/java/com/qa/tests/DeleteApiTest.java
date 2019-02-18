@@ -50,6 +50,7 @@ public class DeleteApiTest extends TestBase {
 		int statusCode = postResponse.getStatusLine().getStatusCode();
 		System.out.println(statusCode);
 		Assert.assertEquals(statusCode, 204);
+		System.out.println("This is the end of delete api");
 
 	}
 
